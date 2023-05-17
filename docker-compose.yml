@@ -1,0 +1,9 @@
+version: "3"
+services:
+  unlighthouse:
+    container_name: unlighthouse
+    build: .
+    environment:
+      - SITE=http://localhost
+    ports:
+      - 5678:5678
