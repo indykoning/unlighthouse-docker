@@ -7,3 +7,5 @@ services:
       - SITE=http://localhost
     ports:
       - 5678:5678
+    # volumes:
+    #   - ./unlighthouse.config.ts:/home/unlighthouse/unlighthouse.config.ts
