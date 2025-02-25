@@ -4,7 +4,7 @@ This is a simple repository (not yet added to dockerhub) to run [unlighthouse](h
 
 ## Installation
 
-Run `docker run ghcr.io/indykoning/unlighthouse-docker -e SITE='http://localhost' -p 5678:5678`
+Run `docker run ghcr.io/indykoning/unlighthouse-docker:master -e SITE='http://localhost' -p 5678:5678`
 
 or
 
